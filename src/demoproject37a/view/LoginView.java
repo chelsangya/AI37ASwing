@@ -210,6 +210,13 @@ public class LoginView extends javax.swing.JFrame {
 
     private void loginButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginButtonActionPerformed
         // TODO add your handling code here:
+        String email= emailTextField.getText();
+        String password= passwordField.getSelectedText();
+        if(email.isEmpty()|| password.isEmpty()){
+            
+        } else{
+            
+        }
     }//GEN-LAST:event_loginButtonActionPerformed
 
     private void forgotPasswordLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_forgotPasswordLabelMouseClicked
